@@ -1,0 +1,79 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing:border-box;
+
+}
+
+.l-container-sobre {
+    text-align: center;
+    color: black;
+    width: 100%;
+    height: 170px;
+    margin: 2px auto 0 auto;
+    display: block;
+    background-color: white;
+    padding: 15px;
+    font-size: 14px;
+}
+
+html {
+    background-color: #B26241;
+    padding: 0px
+}
+
+.container-pai {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 25px auto 0 auto;
+    position: relative;
+}
+
+.container-filho > img {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.botões {
+    color: #1b4332;
+    text-align: center;
+    padding: 5px;
+    margin-top: 42px;
+    margin-bottom: 57px;
+}
+
+#email {
+    color: black;
+}
+
+.icon {
+    text-align: center;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+#lista {
+    text-align: center;
+    font-size: 25px;
+}
+
+#nome {
+    color: black;
+}
+
+#endereço {
+    color: black;
+}
+
+#telefone {
+    color: black;
+}
+
+#frase {
+    color: black;
+}
